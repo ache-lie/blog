@@ -3318,7 +3318,8 @@ h1.page-title + .tag-cloud-list {
   color: #49b1f5;
 }
 #aside-content #card-toc .toc-content .toc-link.active {
-  background: transparent;
+  border-radius: 13px;
+  background: #87ceeb;
   color: #fff;
 }
 #aside-content :only-child > .card-widget {
