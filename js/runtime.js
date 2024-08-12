@@ -11,7 +11,7 @@ function createtime() {
     var g = (now - o) / 1e3 - 86400 * r - 3600 * s - 60 * l,
         b = Math.round(g); 1 == String(b).length && (b = "0" + b);
     let c = "";
-    c = s < 18 && s >= 9 ? `<img class="boardsign" src="https://sourcebucket.s3.ladydaily.com/badge/F小屋-科研摸鱼中.svg" title="什么时候能够实现财富自由呀~">
+    c = s < 18 && s >= 9 ? `<div style="font-size:13px;font-weight:bold" title="一定不要放弃!">什么时候能够实现财富自由呀</div>
     <br> 
     <div style="font-size:13px;font-weight:bold">本站居然运行了 ${r} 天 ${s} 小时 ${l} 分 ${b} 秒 
     <i id="heartbeat" class="fas fa-heartbeat"></i> 
@@ -19,7 +19,7 @@ function createtime() {
     旅行者 1 号当前距离地球 ${t} 千米，约为 ${a} 个天文单位 🚀</div>
     <b><font size="2px">夏天的飞鸥，飞到我的窗前唱歌， 又飞去了。秋天的黄叶，它们没有什么可唱，只叹息一声，飞落在那里。
     </font></b>
-    ` : `<img class="boardsign" src="https://sourcebucket.s3.ladydaily.com/badge/F小屋-下班休息啦.svg" title="下班了就该开开心心地玩耍~">
+    ` : `<div style="font-size:13px;font-weight:bold" title="加根鸡腿!">下班了就该开开心心地玩耍</div>
     <div style="font-size:13px;font-weight:bold">本站居然运行了 ${r} 天 ${s} 小时 ${l} 分 ${b} 秒 <i id="heartbeat" class="fas fa-heartbeat"></i> 
     <br>
     旅行者 1 号当前距离地球 ${t} 千米，约为 ${a} 个天文单位 🚀</div>
