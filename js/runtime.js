@@ -19,7 +19,7 @@ function createtime() {
     旅行者 1 号当前距离地球 ${t} 千米，约为 ${a} 个天文单位 🚀</div>
     <b><font size="2px">夏天的飞鸥，飞到我的窗前唱歌， 又飞去了。秋天的黄叶，它们没有什么可唱，只叹息一声，飞落在那里。
     </font></b>
-    ` : `<div style="font-size:13px;font-weight:bold" title="加根鸡腿!">下班了就该开开心心地玩耍</div>
+    ` : `<div style="font-size:13px;font-weight:bold" title="加鸡腿!">下班了就该开开心心地玩耍</div>
     <div style="font-size:13px;font-weight:bold">本站居然运行了 ${r} 天 ${s} 小时 ${l} 分 ${b} 秒 <i id="heartbeat" class="fas fa-heartbeat"></i> 
     <br>
     旅行者 1 号当前距离地球 ${t} 千米，约为 ${a} 个天文单位 🚀</div>
